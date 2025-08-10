@@ -1,0 +1,10 @@
+services:
+  telegram-bot:
+    build: .
+    ports:
+      - "3444:3000"
+    environment:
+      - BOT_TOKEN=${BOT_TOKEN}
+      - CHANNEL_ID=${CHANNEL_ID}
+      - PORT=3000
+    restart: always

@@ -1,0 +1,17 @@
+{
+  "name": "telegram-error-notification",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@dotenvx/dotenvx": "^1.48.4",
+    "express": "^5.1.0",
+    "telegraf": "^4.16.3"
+  }
+}
