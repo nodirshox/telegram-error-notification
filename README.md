@@ -34,8 +34,6 @@ A simple Express.js server with Telegram bot integration for reporting errors to
 5. **Run the server:**
    ```bash
    npm start
-   # or for development with auto-restart:
-   npm run dev
    ```
 
 ## Usage
